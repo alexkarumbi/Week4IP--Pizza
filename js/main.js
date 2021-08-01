@@ -1,6 +1,6 @@
 function getSize(){
     var selectedSize =document.getElementById("size").value ;
-    return parseInt(selectedSize)
+    return parseInt(selectedSize);
 }
 function getCrust() {
     var selectedCrust = document.getElementById("crust").value;
@@ -15,6 +15,12 @@ function getQuantity() {
     return parseInt(selectedQuantity);
 }
 function getType(){
-    var selectedtype =document.getElementById("type").value
-    return parseInt(selectedtype)
+   var selectedtype =document.getElementById("type").value
+    return parseInt(selectedtype);
 }
+function checkout(){
+    var Total= getSize() + getToppings() + getType() + getCrust() * getQuantity() +200  ;
+    alert("The total payment is Ksh." + (Total));
+    prompt("Enter your location")
+    alert("Your order will be delivered as soon as possible")
+} 
