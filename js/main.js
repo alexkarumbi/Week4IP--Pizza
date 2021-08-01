@@ -1,13 +1,13 @@
 function getSize(){
-    var selectedSize =document.getElementById("size").value ;
+    var selectedSize =document.getElementById("p-size").value ;
     return parseInt(selectedSize);
 }
 function getCrust() {
-    var selectedCrust = document.getElementById("crust").value;
+    var selectedCrust = document.getElementById("p-crust").value;
     return parseInt(selectedCrust);
 }
 function getToppings() {
-    var selectedToppings = document.getElementById("toppings").value;
+    var selectedToppings = document.getElementById("p-toppings").value;
     return parseInt(selectedToppings);
 }
 function getQuantity() {
@@ -15,7 +15,7 @@ function getQuantity() {
     return parseInt(selectedQuantity);
 }
 function getType(){
-   var selectedtype =document.getElementById("type").value
+   var selectedtype =document.getElementById("p-type").value
     return parseInt(selectedtype);
 }
 function checkout(){
