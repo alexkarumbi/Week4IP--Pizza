@@ -14,3 +14,6 @@ function getQuantity() {
     var selectedQuantity = document.getElementById("QTY").value;
     return parseInt(selectedQuantity);
 }
+function getType(){
+    var selected
+}
