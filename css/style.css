@@ -23,3 +23,9 @@ form{
     text-align: center;
     padding: 100px;
 }
+#classics{
+    color: rgb(44, 7, 7);
+}
+.card{
+    margin-top: 100px;
+}
