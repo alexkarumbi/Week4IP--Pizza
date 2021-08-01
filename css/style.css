@@ -1,0 +1,18 @@
+
+.jumbotron-fluid{
+background: url("/images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+background-size: cover;
+height:100vh ;
+}
+h1{
+    padding: 200px;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
