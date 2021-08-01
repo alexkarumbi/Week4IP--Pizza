@@ -15,5 +15,6 @@ function getQuantity() {
     return parseInt(selectedQuantity);
 }
 function getType(){
-    var selected
+    var selectedtype =document.getElementById("type").value
+    return parseInt(selectedtype)
 }
