@@ -1,3 +1,4 @@
+
 function getCrust() {
     var selectedCrust = document.getElementById("crust").value;
     return parseInt(selectedCrust);
@@ -9,3 +10,4 @@ function getToppings() {
 function getQuantity() {
     var selectedQuantity = document.getElementById("QTY").value;
     return parseInt(selectedQuantity);
+}
