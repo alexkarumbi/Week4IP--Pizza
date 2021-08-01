@@ -2,7 +2,6 @@ body{
     background: rgb(44, 7, 7);
 }
 .container-fluid{
-background: url("/assets/bg/ivan-torres-MQUqbmszGGM-unsplash.jpg");
 background-size: cover;
 height:100vh ;
 }
