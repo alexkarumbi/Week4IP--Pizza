@@ -1,5 +1,7 @@
-
-.jumbotron-fluid{
+body{
+    background: rgb(44, 7, 7);
+}
+.container-fluid{
 background: url("/images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
 background-size: cover;
 height:100vh ;
@@ -15,4 +17,9 @@ p{
     text-align: center;
     font-size: 2em;
     font-style: italic;
+}
+form{
+    display: flex;
+    text-align: center;
+    padding: 100px;
 }
