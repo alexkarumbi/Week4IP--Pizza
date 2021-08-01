@@ -1,4 +1,7 @@
-
+function getSize(){
+    var selectedSize =document.getElementById("size").value ;
+    return parseInt(selectedSize)
+}
 function getCrust() {
     var selectedCrust = document.getElementById("crust").value;
     return parseInt(selectedCrust);
