@@ -5,7 +5,7 @@ body{
 background-size: cover;
 height:100vh ;
 }
-h1{
+#title{
     padding: 200px;
     color: white;
     font-size: 5em;
@@ -30,4 +30,11 @@ form{
 }
 #deluxes{
     color: rgb(44, 7, 7);
+}
+.contact-text{
+    font-style: normal;
+    font-size: 20px;
+}
+p img{
+    width: 20px;
 }
